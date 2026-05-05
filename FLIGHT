@@ -1,0 +1,21 @@
+# FlightMind AI — Agentic Flight Operations Assistant
+
+An AI-powered agentic assistant for airline operations built with 
+LangChain, FastAPI, and GPT-4 with RAG-based flight knowledge retrieval.
+
+## What This Project Does
+- Answers real-time flight status questions using RAG pipeline
+- Recommends rebooking options for cancelled/delayed flights  
+- Calculates AAdvantage loyalty miles automatically
+- Handles baggage policy questions intelligently
+- Remembers conversation history across multiple turns
+- Deployed as production REST API with Docker on AWS ECS
+
+## Tech Stack
+- Python, FastAPI
+- LangChain, LangGraph, OpenAI GPT-4
+- FAISS Vector Store, OpenAI Embeddings
+- PostgreSQL, Redis
+- Docker, AWS ECS, GitHub Actions CI/CD
+
+## Architecture
